@@ -1,0 +1,492 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+#content {
+	width: 100%;
+	background-color: #99ccff;
+	position: absolute;
+}
+
+hr {
+	border: 1px solid white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#navbar {
+	display: block;
+	width: 100%;
+	height: 120px;
+}
+
+#name {
+	font-family: "Avenir";
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	margin: 0px;
+	margin-left: 40px;
+	line-height: 120px;
+	float: left;
+	cursor: default;
+}
+
+#tab-container {
+	display: inline-block;
+	float: right;
+	line-height: 120px;
+	margin: 0px;
+	margin-right: 20px;
+	
+}
+
+.tab {
+	font-family: "Avenir";
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+	margin: 0px;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+	line-height: 30px;
+	list-style: none;
+}
+
+.tab:before {
+	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 2px;
+ 	bottom: 0;
+  	left: 0;
+  	background-color: white;
+  	visibility: hidden;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+.tab:hover:before {
+	visibility: visible;
+  	-webkit-transform: scaleX(1);
+ 	transform: scaleX(1);
+}
+
+#typing {
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 150px;
+}
+
+#hi {
+	font-family: "Avenir";
+	color: white;
+	font-size: 80px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#story {
+	margin-top: 250px;
+	padding-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+}
+
+#story-title {
+	width: 100%;
+	text-align: center;
+	font-family: "Avenir";
+	color: white;
+	font-size: 32px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#story-info {
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	font-family: "Avenir";
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	cursor: default;
+	display: inline-block;
+	padding-top: 15px;
+	
+}
+
+#story-img1 {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+#journey {
+	margin-top: 100px;
+	padding-top: 20px;
+	width: 70%;
+	margin-left: 15%;
+}
+
+#journey-title {
+	width: 100%;
+	text-align: center;
+	font-family: "Avenir";
+	color: white;
+	font-size: 42px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+.bullet-points {
+	font-family: "Avenir";
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	cursor: default;
+	margin-bottom: 10px;
+}
+
+.journey-info {
+	width: 100%;
+	text-align: left;
+	font-family: "Avenir";
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	cursor: default;
+	margin-top: 30px
+}
+
+#journey-img1 {
+	width: 39.5%;
+	margin: 0px;
+	border-radius: 15px;
+	transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+#journey-img2 {
+	width: 37.1%;
+	margin: 0px;
+	border-radius: 15px;
+}
+#journey-img3 {
+	width: 21%;
+	margin: 0px;
+	border-radius: 15px;
+	transform: rotate(14deg);
+	-webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
+    -o-transform: rotate(14deg);
+}
+
+#council-list {
+	width: 80%;
+	padding-left: 10%;
+}
+
+.imgs {
+	text-align: center;
+}
+
+#vision {
+	margin-top: 30px;
+	padding-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+}
+
+#vision-title {
+	width: 100%;
+	text-align: center;
+	font-family: "Avenir";
+	color: white;
+	font-size: 32px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+.vision-info {
+	width: 100%;
+	text-align: left;
+	font-family: "Avenir";
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#can {
+	margin-top: 200px;
+	padding-top: 20px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#can-title {
+	width: 100%;
+	text-align: center;
+	font-family: "Avenir";
+	color: white;
+	font-size: 42px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#can-info {
+	width: 100%;
+	text-align: left;
+	font-family: "Avenir";
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#support {
+	margin-top: 30px;
+	padding-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+}
+
+#support-title {
+	width: 100%;
+	text-align: center;
+	font-family: "Avenir";
+	color: white;
+	font-size: 32px;
+	font-weight: lighter;
+	cursor: default;
+}
+
+#support-info {
+	width: 100%;
+	text-align: left;
+	font-family: "Avenir";
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	cursor: default;
+	text-align: center;
+	margin: 0;
+}
+
+#support-form {
+	font-family: "Avenir";
+	color: white;
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 0;
+}
+
+#wall {
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+#wall-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	font-family: "Avenir";
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	cursor: default;
+	grid-row-gap: 10px;
+}
+
+input[type=text] {
+	font-family: "Avenir";
+	font-size: 22px;
+	font-weight: lighter;
+	color: white;
+	background-color: #99ccff;
+	border: none;
+/*	box-sizing: border-box;*/
+	height: 22px;
+	-webkit-transition: 1s;
+ 	transition: 1s;
+  	outline: none;
+	border-bottom: 3px solid white;
+	width: 25%;
+}
+
+button[type=submit] {
+	font-family: "Avenir";
+	font-size: 22px;
+	font-weight: lighter;
+	color: white;
+	background-color: #99ccff;
+	border: none;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	cursor: pointer;		
+}
+
+button[type=submit]:hover {
+	color: #d9d9d9;
+}
+
+button[type=submit]:focus {
+	outline: none;
+}
+
+#confirmation {
+	width: 30px;
+	display: none;
+}
+
+.spacer {
+	display: block;
+	height: 60px;
+	width: 100%;
+}
+
+#socialmedia {
+	position: fixed;
+	bottom: 0;
+}
+
+p {
+	margin: 0px;
+	displa: inline-block;
+	
+}
+
+#ig {
+	list-style: none;
+	font-size: 40px;
+	color: white;
+	transition: .5s color;
+}
+
+#ig:hover {
+	color: #d9d9d9;
+}
+
+#fb {
+	list-style: none;
+	font-size: 40px;
+	color: white;
+	transition: .5s;
+	transition: .5s color;
+}
+
+#fb:hover {
+	color: #d9d9d9;
+}
+
+#yt {
+	list-style: none;
+	font-size: 35px;
+	color: white;
+	transition: .5s;
+	transition: .5s color;
+}
+
+#yt:hover {
+	color: #d9d9d9;
+}
+
+#made-div {
+	width: 100%;
+	text-align: center;
+}
+
+#made {
+	font-family: "Avenir";
+	font-size: 24px;
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 0px;
+}
+
+#heart {
+	color: red;
+}
+
+#copyright {
+	font-family: "Avenir";
+	font-size: 16px;
+	font-weight: lighter;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+@media (max-width:850px) { 
+	#tab-container {
+		display: block;
+		width: 100%;
+		text-align: center;
+		line-height: 40px;
+		margin: 0px;
+	}
+	#name {
+		line-height: 80px;
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+	}
+	
+	#navbar {
+		line-height: 120px;
+	}
+	
+	.tab {
+		margin: 0px;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+	
+	#story {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#vision {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#support {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#hi {
+		font-size: 50px;
+	}
+	#name {
+		line-height: 60px;
+	}
+	
+	input[type=text] {
+		width: 40%;
+	}
+	
+}
