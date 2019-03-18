@@ -1,5 +1,10 @@
 /* CSS Document */
 
+@font-face {
+    font-family: "Avenir";
+    src: url('Avenir-Book.ttf') format("truetype");
+}
+
 body {
 	margin: 0;
 	padding: 0;
